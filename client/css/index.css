@@ -1,0 +1,76 @@
+/**
+    @author Leviathenn
+**/
+
+body {
+    margin: 0px;
+    overflow:hidden;
+}
+.sideitem{
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(22, 23, 124);
+    color:black;
+    text-align: center;
+}
+.sidebar{
+    position: absolute;
+    top:0;
+    left:0;
+    width: calc(100% - 85%);
+    height: 100vh;
+    background-color: rgb(1, 1, 50);
+}
+.sideitem{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    cursor:pointer;
+    color: white;
+}
+.view{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    width: calc(100% - 15%);
+    height: 100vh;
+    left:calc(100% - 85%);
+    background-color: rgb(68, 68, 68);
+}
+.icon{
+    position: relative;
+    left: 15px;
+    user-select: none;
+}
+.title {
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    top: 18px;
+    width: 100px;
+    left: 40px;
+    user-select: none;
+    cursor: pointer;
+} 
+.dashitem{
+  
+    position:relative;
+    width: 900px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(60, 88, 247);
+    font-size: small;
+    user-select: none;
+    padding: 20px;
+    margin-left: 50px;
+}
+.icon2{
+    position: absolute;
+    left: 90%;
+    top: 40%;
+    cursor: pointer;
+    user-select: none;
+    
+}
